@@ -1,0 +1,16 @@
+[
+    {
+        "Protocol": "TCP",
+        "Port": 25565,
+        "Ref": "ServerPort",
+        "Name": "Server Port",
+        "Description": "Minecraft Java game port"
+    },
+    {
+        "Protocol": "TCP",
+        "Port": 25575,
+        "Ref": "RCONPort",
+        "Name": "RCON Port",
+        "Description": "Remote console port"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "ConfigFile": "server.properties",
+        "ConfigType": "kvp",
+        "ConfigFormat": "{0}{1}",
+        "Importable": "true",
+        "Subsections": [
+            {
+                "Heading": "$root",
+                "SettingMappings": {
+                    "motd=": "motd",
+                    "server-port=": "$ServerPort",
+                    "server-ip=": "$ApplicationIPBinding",
+                    "max-players=": "$MaxUsers",
+                    "gamemode=": "gamemode",
+                    "force-gamemode=": "force-gamemode",
+                    "difficulty=": "difficulty",
+                    "pvp=": "pvp",
+                    "white-list=": "white-list",
+                    "view-distance=": "view-distance",
+                    "online-mode=": "online-mode",
+                    "enable-query=": "enable-query",
+                    "enable-rcon=": "EnableRCON",
+                    "rcon.port=": "$RCONPort",
+                    "rcon.password=": "rcon.password",
+                    "level-name=": "level-name",
+                    "level-seed=": "level-seed",
+                    "level-type=": "level-type",
+                    "": "UserSettings"
+                }
+            }
+        ]
+    }
+]
